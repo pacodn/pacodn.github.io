@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ebd9aa; /* Fondo gris claro */
+    color: #333; /* Texto gris oscuro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 20px; /* Agrega un margen en la parte superior */
+    padding-bottom: 20px; /* Agrega un margen en la parte inferior */
+}
+
+header {
+    text-align: center;
+    color: #3d1a02; /* Texto blanco */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px; /* Tamaño de fuente más grande */
+}
+
+.content__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Margen superior */
+}
+
+.text__container {
+    max-width: 50%;
+    margin-right: 20px;
+    background-color: #eee; /* Fondo gris claro */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.image__container {
+    max-width: 50%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+/* Estilos base para el botón */
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Color de fondo del botón */
+    color: #fff; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+/* Estilos cuando el cursor pasa sobre el botón */
+.cta:hover {
+    background-color: #555; /* Cambia el color de fondo cuando el cursor pasa sobre el botón */
+}
+
+

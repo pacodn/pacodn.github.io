@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c9ba9d; /* Color de fondo predeterminado */
+    color: #311701; /* Color de texto predeterminado */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+iframe {
+    border: 0;
+}
+
+/* Estilos base para el botón */
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Color de fondo del botón */
+    color: #ffffff; /* Color del texto */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+/* Estilos cuando el cursor pasa sobre el botón */
+.cta:hover {
+    background-color: #555; /* Cambia el color de fondo cuando el cursor pasa sobre el botón */
+}
