@@ -415,7 +415,7 @@ body {
 /* Footer */
 
 .footer{
-    background-color: #032211;
+    background-color: #78867e;
 }
 
 .footer__title{
@@ -425,7 +425,7 @@ body {
 }
 
 .footer__title, .footer__newsletter{
-    color: #fff;
+    color: #000000;
 }
 
 
@@ -433,7 +433,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #000000;
     padding-bottom: 60px;
 }
 
@@ -450,6 +450,7 @@ body {
     margin: 0;
     margin-right: 20px;
     flex-wrap: wrap;
+
 }
 
 .footer__inputs{
@@ -486,7 +487,7 @@ body {
 .footer__copy{
     --padding-container: 30px 0;
     text-align: center;
-    color: #fff;
+    color: #000000;
 }
 
 .footer__copyright{
@@ -510,7 +511,7 @@ body {
 
     .nav__link--menu{
         position: fixed;
-        background-color: #000;
+        background-color: #ada6a6;
         top: 0;
         left: 0;
         height: 100%;
